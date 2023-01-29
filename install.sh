@@ -7,8 +7,8 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # Change Debian to SID Branch
-cp /etc/apt/sources.list /etc/apt/sources.list.bak
-cp sources.list /etc/apt/sources.list
+#cp /etc/apt/sources.list /etc/apt/sources.list.bak
+#cp sources.list /etc/apt/sources.list
 
 username=$(id -u -n 1000)
 builddir=$(pwd)
